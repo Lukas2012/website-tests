@@ -72,7 +72,7 @@ body {
     color:                      white;
     position:                   absolute;
     height:                     30px;
-    top:                        -300px;
+    top:                        -50px;
     left:                       50%;
     margin-left:                -480px;
     line-height:                40px;
@@ -103,7 +103,7 @@ body {
     width:                      580px;
 }
 
-#home, #page2, #page3 {
+#home, #service, #page3 {
     width:                      950px;
     color:                      white;
     position:                   absolute;
@@ -124,7 +124,7 @@ body {
     width:                      400px;
 }
 
-#page2 {
+#service {
     bottom:                     -250px;
     left:                       50%;
     margin-left:                -480px;
@@ -136,7 +136,7 @@ body {
     margin-left:                -480px;
 }
 
-#home.active, #page2.active, #page3.active {
+#home.active, #service.active, #page3.active {
     left:                       50%;
     bottom:                     250px;
     margin-left:                -480px;
@@ -228,7 +228,12 @@ footer.bottom nav {
     display: none;
 }
 
-
+#main-content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 /********************
  ***generic styles***
  *******************/
