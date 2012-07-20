@@ -103,36 +103,40 @@ body {
     width:                      580px;
 }
 
-#page1, #page2, #page3 {
+#home, #page2, #page3 {
     width:                      950px;
     color:                      white;
     position:                   absolute;
-    height:                     30px;
-    padding-left:               20px;
     -webkit-transform: translate3d(0,0,0);
 
     -webkit-transition:         all 500ms;
 }
-#page1 {
+#home {
     bottom:                     250px;
     left:                       100%;
     margin-left:                0;
-
+    margin-left:                20px;
+    padding-left:               40px;
+    height:                     60px;
 }
+
+#home p {
+    width:                      400px;
+}
+
 #page2 {
     bottom:                     -250px;
     left:                       50%;
     margin-left:                -480px;
-
 }
+
 #page3 {
     bottom:                     250px;
     left:                       -100%;
     margin-left:                -480px;
-
 }
 
-#page1.active, #page2.active, #page3.active {
+#home.active, #page2.active, #page3.active {
     left:                       50%;
     bottom:                     250px;
     margin-left:                -480px;
